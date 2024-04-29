@@ -1,5 +1,7 @@
 # TM Sponsor Carousel
 
+![tm-sponsor rotation](https://github.com/heliogoodbye/TM-Sponsor-Carousel/assets/105381685/79b3606a-1122-48ec-abcf-d66cb0531f14)
+
 **TM Sponsor Carousel** is a plugin to build and manage rotating carousels displaying sponsor logos on WordPress websites. It streamlines the process of showcasing logos of sponsors, partners, or supporters in an attractive and dynamic manner.
 
 Key features of the plugin include:
