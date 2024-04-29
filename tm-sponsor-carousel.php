@@ -139,6 +139,6 @@ function tm_sponsor_carousel_enqueue_scripts() {
     wp_enqueue_script( 'slick-carousel-js', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js', array( 'jquery' ), null, true );
     
     // Enqueue your plugin's custom JavaScript file
-    wp_enqueue_script( 'tm_sponsor_carousel-js', plugin_dir_url( __FILE__ ) . 'js/tm_sponsor_carousel.js', array( 'slick-carousel-js' ), null, true );
+    wp_enqueue_script( 'tm-sponsor-carousel-js', plugin_dir_url( __FILE__ ) . 'js/tm-sponsor-carousel.js', array( 'slick-carousel-js' ), null, true );
 }
 add_action( 'wp_enqueue_scripts', 'tm_sponsor_carousel_enqueue_scripts' );
