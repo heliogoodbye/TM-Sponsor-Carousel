@@ -1,0 +1,100 @@
+/* Carousel container */
+.tm_sponsor_carousel {
+    margin: 20px 0;
+}
+
+/* Ensure the last logo doesn't have right margin */
+.logo-item:last-child {
+    margin-right: 0;
+}
+
+/* Logo item */
+.logo-item {
+    text-align: center;
+    margin-right: 20px; /* Add spacing between logos */
+}
+
+/* Logo image */
+.logo-item img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+/* Slick carousel arrow styles */
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.75;
+    color: #000;
+}
+
+.slick-prev:before {
+    content: '←';
+}
+
+.slick-next:before {
+    content: '→';
+}
+
+/* Slick carousel dot styles */
+.slick-dots {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: transparent;
+    outline: none;
+}
+
+.slick-dots li button:hover {
+    background-color: #000;
+}
