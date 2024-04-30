@@ -46,3 +46,11 @@ Overall, the TM Sponsor Carousel plugin simplifies the process of managing and s
 5. Further Customization:
     - For advanced customization or additional functionality, you can modify the plugin code directly.
     - Be cautious when editing plugin files to avoid breaking functionality or compatibility with future updates.
+  
+---
+
+## Disclaimer
+
+This WordPress plugin is provided without warranty. As the program is licensed free of charge, there is no warranty for the program, to the extent permitted by applicable law. The entire risk as to the quality and performance of the program is with you. Should the program prove defective, you assume the cost of all necessary servicing, repair, or correction.
+
+In no event unless required by applicable law or agreed to in writing will the authors or copyright holders be liable to you for damages, including any general, special, incidental, or consequential damages arising out of the use or inability to use the program (including but not limited to loss of data or data being rendered inaccurate or losses sustained by you or third parties or a failure of the program to operate with any other programs), even if such holder or other party has been advised of the possibility of such damages.
